@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1MiME47ELIPpq--bUKEA-ePoPtilosqLn?alt=media&key=AIzaSyCiys0xevPZw_WauMy7jroiW7Fws5KHIzA'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/n4snnq83bjn888b/mri_scan_brain.pkl?dl=1'
+export_file_name = 'mri_scan_brain.pkl'
 
-classes = ['ironman', 'spiderman', 'superman']
+classes = ['tumor_found', 'tumor_not_found']
 path = Path(__file__).parent
 
 app = Starlette()
