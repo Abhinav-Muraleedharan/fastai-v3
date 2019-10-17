@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #00ffff;
 }
 
 .no-display {
@@ -29,13 +29,13 @@ body {
 }
 
 .upload-label {
-    padding: 10px;
+    padding: 20px;
     font-size: 12px;
 }
 
 .result-label {
     margin-top: 0.5em;
-    padding: 10px;
+    padding: 20px;
     font-size: 13px;
 }
 
